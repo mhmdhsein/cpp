@@ -20,11 +20,11 @@ for(f=0;f<3;f++){
         a4[f]=a1[f][m];
     }
 }
-for(int s=0;s<3;s++)
-    cout<<a2[f];
-for(int s=0;s<3;s++)
-    cout<<a3[f];
-    for(int s=0;s<3;s++)
-    cout<<a4[f];
+for(int l=0;l<3;l++)
+    cout<<a2[l];
+for(int o=0;o<3;o++)
+    cout<<a3[o];
+ for(int g=0;g<3;g++)
+    cout<<a4[g];
     return 0;
 }
