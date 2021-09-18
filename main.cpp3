@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int a1[3][3];
+int f,m,g;
+f=0;
+for(g=0;g<3;g++)
+    for(m=0;m<3;m++)
+    cin>>a1[g][m];
+for(g=0;g<3;g++)
+    for(m=0;m<3;m++)
+f=f+a1[g][m];
+cout<<f;
+
+return 0;
+}
