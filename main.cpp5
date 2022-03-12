@@ -1,0 +1,39 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+void login();
+int main()
+{
+    string r;
+    cout<<"login or submit?"<<"\n";
+    cin>>r;
+   if(r=="login")
+    login();
+
+
+    return 0;
+}
+void login(){
+ string username;
+    int pass;
+    string m;
+    int n;
+    ifstream f("f:\\sd.txt");
+    f>>m;
+    while(!f.eof()){
+    f>>m;
+    }
+    f.close();
+   ifstream u("f:\\sd pass.txt");
+    u>>n;
+    while(!u.eof()){
+    u>>n;
+    }
+    u.close();
+   cin>>username>>pass;
+   if((username==m)&&(pass==n)){
+    cout<<"welcome";
+   }
+    else{
+        cout<<"eror";
+    }}
