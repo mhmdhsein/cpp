@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a1[2][3]={{2,3,4},{3,5,6}};
+int a2[3],a3[3];
+for(int f=0;f<2;f++)
+    for(int m=0;m<3;m++)
+    if(f==0){
+    a2[m]=a1[f][m];}
+    else{
+        a3[m]=a1[f][m];}
+for(int s=0;s<3;s++)
+    cout<<a2[s];
+cout<<"\n";
+for(int g=0;g<3;g++)
+    cout<<a3[g];
+
+
+    return 0;
+}
