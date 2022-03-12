@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+void f1(int br[],int x);
+int main()
+{
+    int f;
+    int ar[5];
+    for(f=0;f<5;f++)
+        cin>>ar[f];
+        f1(ar,5);
+        for(f=0;f<5;f++)
+            cout<<ar[f];
+    return 0;
+}
+void f1(int br[],int x){
+for(int m=0;m<x;m++)
+    br[m]=br[m]*2;
+}
